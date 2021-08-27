@@ -1,0 +1,28 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(212, 212, 212);
+    font-family: 'Oswald', sans-serif;
+
+}
+
+span{
+color: rgb(45, 170, 87);
+font-weight: 600;
+text-transform: uppercase;
+text-decoration: underline;
+}
+
+.pizza{
+    background-image: url(/pizzasommar.jpg);
+    height: 400px;
+    margin: 0;
+}
+
+.pizza h1{
+    transform: translate(200px, 200px);
+}
+p{
+    line-height: 15px;
+    font-size: 1.3rem;
+}

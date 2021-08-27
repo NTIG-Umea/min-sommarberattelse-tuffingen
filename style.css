@@ -1,9 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html, body{
     margin: 0;
     padding: 0;
     background-color: rgb(212, 212, 212);
     font-family: 'Oswald', sans-serif;
-
+    overflow-x: hidden;
 }
 
 span{
@@ -17,12 +22,22 @@ text-decoration: underline;
     background-image: url(/pizzasommar.jpg);
     height: 400px;
     margin: 0;
+    padding: 0;
+    border-bottom: rgb(45, 170, 87) solid 3px;
 }
 
 .pizza h1{
-    transform: translate(200px, 200px);
+    text-align: center;
+    padding-top: 170px;
+    color: aliceblue;
+    font-size: 3rem;
 }
 p{
-    line-height: 15px;
+    line-height: 1.7;
     font-size: 1.3rem;
+    padding-left: 40px;
+}
+.text{
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
